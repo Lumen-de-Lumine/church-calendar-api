@@ -28,7 +28,7 @@ resource "aws_ecs_service" "main" {
 
 # define the iam target group along with alb rules and dns entries
 module "target_group" {
-  source = "git::https://gitlab.com/5stones/tf-modules//aws/lb/target-group?ref=v2.3.2"
+  source = "git::https://gitlab.com/5stones/tf-modules//aws/lb/target-group?ref=v5.0.1"
 
   name     = var.name
   hostname = var.hostname
