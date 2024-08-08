@@ -1,3 +1,12 @@
+## [2.4.1](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.0...v2.4.1) (2024-08-08)
+
+
+### Features
+
+* Add .dockerignore file ([6027f16](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/6027f1643bcfc4690d8260ffa91baf1ec1ce87b0))
+
+
+
 # [2.4.0](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.3.3...v2.4.0) (2024-08-08)
 
 
