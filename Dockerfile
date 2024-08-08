@@ -1,6 +1,6 @@
 FROM phusion/passenger-ruby25
 
-ENV HOME /root
+ENV HOME=/root
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
   && mkdir -p /home/app/webapp \
