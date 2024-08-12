@@ -1,5 +1,5 @@
 module "app" {
-  source = "git::https://gitlab.com/5stones/tf-modules//k8s/app?ref=v6.2.0"
+  source = "git::https://gitlab.com/5stones/tf-modules//k8s/app?ref=v6.4.0"
 
   namespace    = var.namespace
   name         = var.name
@@ -23,5 +23,23 @@ module "app" {
 
   security_context = {
     run_as_non_root = false
+    capabilities = {
+      # ruby needs some, but maybe not all of these permissions
+      add = [
+        "AUDIT_WRITE",
+        "CHOWN",
+        "DAC_OVERRIDE",
+        "FOWNER",
+        "FSETID",
+        "KILL",
+        "MKNOD",
+        "NET_BIND_SERVICE",
+        "SETFCAP",
+        "SETGID",
+        "SETPCAP",
+        "SETUID",
+        "SYS_CHROOT",
+      ]
+    }
   }
 }
