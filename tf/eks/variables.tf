@@ -31,6 +31,9 @@ variable "namespace" {
   description = "The namespace: staging, production, etc."
 }
 
+variable "alb_name" {
+  description = "The name of the ALB"
+}
 variable "change_cause" {
   default = null
 }
