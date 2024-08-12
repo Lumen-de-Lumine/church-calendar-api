@@ -1,3 +1,12 @@
+## [2.4.2](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.1...v2.4.2) (2024-08-12)
+
+
+### Features
+
+* Add terraform eks config ([dcb50d7](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/dcb50d7b49a1d00b40d0e49b1e5b97db7cdf53ef))
+
+
+
 ## [2.4.1](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.0...v2.4.1) (2024-08-08)
 
 
