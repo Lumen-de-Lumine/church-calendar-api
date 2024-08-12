@@ -1,3 +1,12 @@
+## [2.4.3](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.2...v2.4.3) (2024-08-12)
+
+
+### Bug Fixes
+
+* Restore dns in eks configuration ([c5bafd5](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/c5bafd54d6be2013c7420fdd48383a7f587613bb))
+
+
+
 ## [2.4.2](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.1...v2.4.2) (2024-08-12)
 
 
