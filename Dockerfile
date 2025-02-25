@@ -1,5 +1,10 @@
-FROM phusion/passenger-ruby25
+ARG TARGETARCH
 
+FROM phusion/passenger-ruby26:latest AS ruby-amd64
+
+FROM phusion/passenger-ruby26:latest-arm64 AS ruby-arm64
+
+FROM ruby-${TARGETARCH}
 ENV HOME=/root
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
