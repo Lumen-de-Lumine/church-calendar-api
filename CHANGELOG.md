@@ -1,3 +1,12 @@
+# [2.5.0](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.3...v2.5.0) (2025-02-25)
+
+
+### Features
+
+* Update to ruby 2.6 ([4ce0098](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/4ce009853e01e8e0b41bd3df7268974f8a0f37bf))
+
+
+
 ## [2.4.3](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.2...v2.4.3) (2024-08-12)
 
 
