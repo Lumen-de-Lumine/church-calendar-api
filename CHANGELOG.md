@@ -1,3 +1,13 @@
+# [2.6.0](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.5.0...v2.6.0) (2025-03-04)
+
+
+### Features
+
+* Add multi-platform docker build ([3522400](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/3522400d33e3484c249087eed28030a33e85349d))
+* Update to latest version of calendarium romanum to add Mother Teresa to the calendar (September 5) ([8be45ff](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/8be45ffca505771e9ec3d9d88ab8f649cb23a636))
+
+
+
 # [2.5.0](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.4.3...v2.5.0) (2025-02-25)
 
 
