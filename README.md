@@ -47,6 +47,11 @@ bundle config --local local.calendarium-romanum /path/to/calendarium-romanum
 
 which allows for local gem modification without modifying the `Gemfile` or `Gemfile.lock` ([read more about this here if desired](https://rossta.net/blog/how-to-specify-local-ruby-gems-in-your-gemfile.html))
 
+To update to the latest version of calendarium-romanum from the git repo referenced in the gem file, spin up the docker compose calendar (`docker compose build && docker compose up`) and run from the docker container (i.e., `docker compose exec calendar bundle update calendarium-romanum`)
+```sh
+bundle update calendarium-romanum
+```
+
 ## Running your own instance on Heroku
 
 The application works as is, you only need to create a new application
