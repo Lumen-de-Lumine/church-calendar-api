@@ -1,9 +1,10 @@
 module "app" {
-  source = "git::https://gitlab.com/5stones/tf-modules//k8s/app?ref=v6.4.0"
+  source = "git::https://gitlab.com/5stones/tf-modules//k8s/app?ref=v8.1.1"
 
   namespace    = var.namespace
   name         = var.name
   image        = "${var.docker_repo}:${var.docker_tag}"
+  arch         = ["amd64", "arm64"]
   change_cause = var.change_cause
   port         = 80
   ingress_host = "${var.hostname}.${var.zone}"
