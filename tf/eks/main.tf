@@ -16,7 +16,7 @@ module "app" {
       memory = "128Mi"
     }
     limits = {
-      memory = "1024Mi"
+      memory = "512Mi"
     }
   }
 
