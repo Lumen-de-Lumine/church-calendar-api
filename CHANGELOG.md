@@ -1,3 +1,12 @@
+## [2.6.4](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.6.3...v2.6.4) (2026-07-09)
+
+
+### Bug Fixes
+
+* Fix .dockerignore ([b3a6ec7](https://github.com/Lumen-de-Lumine/church-calendar-api/commit/b3a6ec7605a033b02d850e32650c86df5ae26b40))
+
+
+
 ## [2.6.3](https://github.com/Lumen-de-Lumine/church-calendar-api/compare/v2.6.2...v2.6.3) (2026-07-09)
 
 
