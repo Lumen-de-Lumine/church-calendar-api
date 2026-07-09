@@ -12,8 +12,8 @@ module "app" {
   autoscaling_range = var.autoscaling_range
   resources = {
     requests = {
-      cpu    = "256m"
-      memory = "128Mi"
+      cpu    = "50m"
+      memory = "200Mi"
     }
     limits = {
       memory = "512Mi"
