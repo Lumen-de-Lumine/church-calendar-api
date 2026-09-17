@@ -25,7 +25,7 @@ module ChurchCalendar
     attr_reader :metadata
 
     def perpetual_calendar_day(date)
-      @perpetual_calendar.day date.year, date.month, date.day, vespers: false, vigils: true
+      @perpetual_calendar.day date.year, date.month, date.day, vespers: true, vigils: true
     end
 
     def day(date)
